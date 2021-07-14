@@ -143,7 +143,31 @@ main{
     
 }
 
+
 /* end player style */
+/* video */
+.video-container h2{
+    text-align: center;
+    background-color: skyblue;
+}
+.video-container h2::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.video-container h2:hover::after{
+    width:90% ;
+}
+.video-container iframe:hover{
+    box-shadow: 0 0 40px gray;
+    
+}
+
 
 /* footer style */
 .footer{
